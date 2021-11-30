@@ -1,7 +1,7 @@
 {
   "name": "cra-template-3sc-typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "3 Sided Cube's create react app typescript template",
   "main": "template.json",
   "devDependencies": {
     "@3sidedcube/prettier-config": "^1.0.0",
@@ -49,7 +49,7 @@
     "pre-commit": "lint-staged"
   },
   "author": "Owen Evans",
-  "license": "ISC",
+  "license": "MIT",
   "prettier": "@3sidedcube/prettier-config",
   "resolutions": {
     "stylelint-config-twbs-bootstrap/stylelint-config-standard": "^24.0.0",
