@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "3 Sided Cube's create react app typescript template",
   "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3sidedcube/cra-template-tsc-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/3sidedcube/cra-template-tsc-typescript/issues"
+  },
+  "homepage": "https://github.com/3sidedcube/cra-template-tsc-typescript#readme",
   "devDependencies": {
     "@3sidedcube/prettier-config": "^1.0.0",
     "@testing-library/jest-dom": "^5.15.1",
