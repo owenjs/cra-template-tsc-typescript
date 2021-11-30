@@ -14,4 +14,12 @@ npx create-react-app my-app --template 3sc-typescript
 yarn create react-app my-app --template 3sc-typescript
 ```
 
-To see what's included in the template visit the template [README](/template)
+### What's included?
+
+- `ts` and `scss` added to the default cra template
+- `eslint`, `prettier` and `stylelint` configs
+- `react-app-rewired` overrides for `react-scripts`
+  - see `config-overrides.js`
+- pre-commit hook added using `husky`
+  - see npm script `pre-commit` in package.json
+- `lint-staged` config for eslint, stylelint and type checking
