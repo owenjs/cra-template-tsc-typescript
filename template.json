@@ -45,7 +45,7 @@
     },
     "lint-staged": {
       "src/**/*.{js,jsx,ts,tsx}": "eslint --fix",
-      "src/**/*.{ts,tsx}": "tsc-files -p tsconfig.base.json --noEmit",
+      "src/**/*.{ts,tsx}": "tsc-files --noEmit src/react-app-env.d.ts",
       "src/**/*.{css,scss,sass}": "stylelint --fix"
     }
   }
