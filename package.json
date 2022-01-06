@@ -66,5 +66,6 @@
     "template/src/**/*.{js,jsx,ts,tsx}": "eslint --fix",
     "template/src/**/*.{ts,tsx}": "tsc-files -p template/tsconfig.base.json --noEmit",
     "template/src/**/*.{css,scss,sass}": "stylelint --fix"
-  }
+  },
+  "dependencies": {}
 }

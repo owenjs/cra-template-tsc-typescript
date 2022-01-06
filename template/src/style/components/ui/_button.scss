@@ -1,0 +1,38 @@
+.c-button {
+  min-width: 190px;
+  padding: .75rem 1rem;
+  font-weight: 700;
+  color: $dark-grey;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: $white;
+  border: 3px solid $dark-grey;
+  border-radius: .5rem;
+
+  &:hover,
+  &:focus {
+    color: $white;
+    background-color: $dark-grey;
+  }
+
+  &--primary {
+    background-color: $primary;
+    border-color: $primary-dark;
+    &:hover,
+    &:focus {
+      color: $dark-grey;
+      background-color: $primary-light;
+    }
+  }
+
+  &--warning {
+    background-color: $warning;
+    border-color: $warning-dark;
+    &:hover,
+    &:focus {
+      color: $dark-grey;
+      background-color: $warning-light;
+    }
+  }
+}
