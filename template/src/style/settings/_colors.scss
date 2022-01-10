@@ -1,0 +1,39 @@
+$green: #a0ff1f !default;
+$black: #000 !default;
+$white: #fff !default;
+$dark-grey: #262626 !default;
+$mid-grey: #c3c3c3 !default;
+$light-grey: #f8f8f8 !default;
+
+
+$cyan: #2ff3e0;
+$gold: #f8d210;
+$pink: #fa26a0;
+$chilli: #f51720;
+
+$primary: $cyan;
+$secondary: $pink;
+$tertiary: $gold;
+$warning: $gold;
+$error: $chilli;
+
+/* SCSS RGB */
+$secondary-light: lighten($secondary, 10%);
+$primary-light: lighten($primary, 10%);
+$tertiary-light: lighten($tertiary, 10%);
+$warning-light: lighten($warning, 10%);
+$error-light: lighten($error, 10%);
+
+$secondary-dark: darken($secondary, 10%);
+$primary-dark: darken($primary, 10%);
+$tertiary-dark: darken($tertiary, 10%);
+$warning-dark: darken($warning, 10%);
+$error-dark: darken($error, 10%);
+
+// RESPONSIVE BREAKPOINTS
+$xs: "350px";
+$sm: "576px";
+$md: "768px";
+$lg: "991px";
+$xl: "1200px";
+$xxl: "1600px";

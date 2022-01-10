@@ -44,3 +44,17 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# Local Development
+
+## CSS
+
+All styles should be written using the [ITCSS architecture](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/). A ITCSS boilderplate has been added to the `src/style` folder. CSS modules can be used which won't follow ITCSS.
+
+Stylelint is used to enforce conventions for all the styles written. Some key conventions to note:
+- An order to the CSS rules is enforced, but don't worry your newly rewritten rules should be reordered for you automatically once you save a file.
+  - [Here is the order that is enforced](https://github.com/stormwarning/stylelint-config-recess-order/blob/main/index.js)
+- All selectors should be written in kebab-case. That meaning written in lower case and each word comma seperated. For example: 
+  - .c-my-classname {} ✅
+  - .cMyClassname {} ❌
+  - A selector can refer to a: classname, id, keyframe name, function name, mixin name, variable name, etc.

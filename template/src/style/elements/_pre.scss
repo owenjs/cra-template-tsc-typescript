@@ -1,0 +1,9 @@
+pre {
+  @include font-size(12px);
+  padding: 10px;
+  color: $white;
+  text-align: left;
+  white-space: pre-wrap;
+  background-color: $black;
+  border-radius: 5px;
+}
