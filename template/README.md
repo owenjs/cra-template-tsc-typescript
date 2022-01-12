@@ -47,7 +47,35 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 # Local Development
 
-## CSS
+### Project Structure
+Most of the code lives in the `src` folder and looks like this:
+```sh
+src
+|
++-- api         # exported API request declarations for the application
+|
++-- assets      # assets folder can contain all the static files such as images, fonts, etc.
+|
++-- components  # shared components used across the entire application
+|
++-- config      # all the global configuration, env variables etc. get exported from here and used in the app
+|
++-- constants   # shared constants used across the entire application
+|
++-- hooks       # shared custom hooks used across the entire application
+|
++-- pages       # centralised location for route-level components
+|
++-- style       # shared styles for the entire application
+|
++-- types       # base types used across the application
+|
++-- utils       # shared utility functions
+```
+
+Inspired by [Bulletproof React](https://github.com/alan2207/bulletproof-react)
+
+### CSS
 
 All styles should be written using the [ITCSS architecture](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/). A ITCSS boilderplate has been added to the `src/style` folder. CSS modules can be used which won't follow ITCSS.
 
@@ -55,6 +83,6 @@ Stylelint is used to enforce conventions for all the styles written. Some key co
 - An order to the CSS rules is enforced, but don't worry your newly rewritten rules should be reordered for you automatically once you save a file.
   - [Here is the order that is enforced](https://github.com/stormwarning/stylelint-config-recess-order/blob/main/index.js)
 - All selectors should be written in kebab-case. That meaning written in lower case and each word comma seperated. For example: 
-  - .c-my-classname {} ✅
-  - .cMyClassname {} ❌
+  - `.c-my-classname {}` ✅
+  - `.cMyClassname {}` ❌
   - A selector can refer to a: classname, id, keyframe name, function name, mixin name, variable name, etc.
